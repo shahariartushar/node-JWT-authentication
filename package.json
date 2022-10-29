@@ -1,0 +1,28 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "An example how to protect routes and get a token using Node.js/Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahariartushar/node-JWT-authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahariartushar/node-JWT-authentication/issues"
+  },
+  "homepage": "https://github.com/shahariartushar/node-JWT-authentication#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
